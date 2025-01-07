@@ -1,16 +1,16 @@
 # 📊 **trAIde: Algorithmic Trading Web Application** 💹💻
 
 ## 📚 **Project Overview**
-**trAIde** is an advanced **algorithmic trading web application** designed to automate intraday trading strategies. By leveraging statistical analysis, machine learning and technical indicators, the application identifies trading opportunities, executes trades, and manages portfolios efficiently and independantly.
+**trAIde** is an advanced **algorithmic trading web application** designed to automate intraday trading strategies. By leveraging statistical analysis and technical indicators, the application identifies trading opportunities, executes trades, and manages portfolios efficiently and independantly.
 
 The system analyzes historical market data and applies a combination of **Simple Moving Average (SMA)**, **Relative Strength Index (RSI)**, and **Exponential Moving Average (EMA)**, along with the **Double Cross Moving Average (DCMA)** technique, to make precise trading decisions.
 
-With the implementation of **multithreading**, the application simultaneously executes trades across **5 shortlisted companies**, ensuring diversification and increased computational efficiency.
+With the implementation of **multithreading**, the application simultaneously executes trades across **5 selected companies**, ensuring diversification and increased computational efficiency.
 
 ## 🚀 **Key Features**
-- 📊 **Technical Indicators:** SMA, EMA and RSI for accurate trade analysis.
-- 🤖 **Automated Trade Execution:** Trades executed based on flagged crossovers and trend validation using the DMAC strategy.
-- ⚡ **Multithreading:** Parallel trade execution across 5 (can be 'n') companies.
+- 📊 **Technical Indicators:** SMA, RSI, EMA, and DCMA for accurate trade analysis.
+- 🤖 **Automated Trade Execution:** Trades executed based on flagged crossovers and trend validation.
+- ⚡ **Multithreading:** Parallel trade execution across 5 companies.
 - 📈 **Profit Optimization:** Achieved approximately **17.89% compounded annual profit** when tested against historical 5-minute interval data.
 - 🌐 **Web Application Interface:** User-friendly interface for monitoring and analysis.
 
@@ -26,9 +26,10 @@ With the implementation of **multithreading**, the application simultaneously ex
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?logo=bootstrap&logoColor=white)
 
 ## 📊 **Trading Strategy**
-1. **Data Analysis:** Historical market data is analyzed for trends and patterns using Random Forest Regressor.
-2. **Indicator Calculations:** SMA, RSI, EMA, and DMAC values are computed.
-3. **Crossover Detection:** DMAC technique flags potential trade opportunities.
+1. **Data Analysis:** Historical market data is analyzed for trends and patterns.
+2. **Indicator Calculations:** SMA, RSI, EMA, and DCMA values are computed.
+3. **Crossover Detection:** DCMA technique flags potential trade opportunities.
+4. **Trend Validation:** Crossovers are validated against market trends.
 5. **Execution:** Trades are executed automatically.
 6. **Diversification:** Trades are distributed across 5 selected companies.
 
